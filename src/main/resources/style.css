@@ -1,0 +1,676 @@
+/* Admin Dashboard */
+
+.dashboard-root {
+    -fx-background-color: #f1f5f9;
+}
+
+.sidebar {
+    -fx-background-color: #172554;
+    -fx-padding: 25px 15px;
+}
+
+.sidebar-brand {
+    -fx-font-size: 38px;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+}
+
+.sidebar-caption {
+    -fx-font-size: 12px;
+    -fx-text-fill: #94a3b8;
+    -fx-padding: 0 0 15px 0;
+}
+
+.menu-button {
+    -fx-background-color: transparent;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-alignment: center-left;
+    -fx-padding: 12px 15px;
+    -fx-background-radius: 7px;
+    -fx-cursor: hand;
+}
+
+.menu-button:hover {
+    -fx-background-color: #2563eb;
+}
+
+.dashboard-card {
+    -fx-background-color: white;
+    -fx-background-radius: 12px;
+    -fx-padding: 20px;
+    -fx-effect: dropshadow(
+        gaussian, #00000012, 10, 0, 0, 3
+    );
+}
+
+.card-title {
+    -fx-font-size: 14px;
+    -fx-text-fill: #64748b;
+}
+
+.card-value {
+    -fx-font-size: 27px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #1e293b;
+}
+
+.section-heading {
+    -fx-font-size: 19px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #1e293b;
+}
+
+.small-button {
+    -fx-background-color: #2563eb;
+    -fx-text-fill: white;
+    -fx-padding: 10px 20px;
+    -fx-background-radius: 7px;
+    -fx-cursor: hand;
+}
+
+.small-button:hover {
+    -fx-background-color: #1d4ed8;
+}
+
+.chart {
+    -fx-background-color: white;
+    -fx-background-radius: 12px;
+    -fx-padding: 15px;
+}
+
+.default-color0.chart-bar {
+    -fx-bar-fill: #2563eb;
+}
+
+.list-view {
+    -fx-background-color: white;
+    -fx-border-color: #e2e8f0;
+    -fx-border-radius: 6px;
+}
+
+.list-cell {
+    -fx-padding: 12px;
+    -fx-font-size: 14px;
+}
+
+.scroll-pane {
+    -fx-background-color: transparent;
+}
+
+.scroll-pane > .viewport {
+    -fx-background-color: #f1f5f9;
+}
+/* Product Management */
+
+.table-view {
+    -fx-background-color: white;
+    -fx-background-radius: 8px;
+    -fx-border-color: #e2e8f0;
+    -fx-border-radius: 8px;
+}
+
+.table-view .column-header-background {
+    -fx-background-color: #e2e8f0;
+}
+
+.table-view .column-header {
+    -fx-background-color: transparent;
+    -fx-padding: 12px;
+}
+
+.table-view .column-header .label {
+    -fx-font-weight: bold;
+    -fx-text-fill: #334155;
+}
+
+.table-row-cell {
+    -fx-cell-size: 45px;
+}
+
+.table-row-cell:odd {
+    -fx-background-color: #f8fafc;
+}
+
+.table-row-cell:selected {
+    -fx-background-color: #2563eb;
+}
+
+.table-row-cell:selected .table-cell {
+    -fx-text-fill: white;
+}
+
+.combo-box {
+    -fx-background-color: white;
+    -fx-border-color: #cbd5e1;
+    -fx-border-radius: 6px;
+    -fx-background-radius: 6px;
+    -fx-pref-height: 40px;
+}
+
+.text-area {
+    -fx-border-color: #cbd5e1;
+    -fx-border-radius: 6px;
+}
+/* Inventory Management */
+
+.success-button {
+    -fx-background-color: #16a34a;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-padding: 10px 20px;
+    -fx-background-radius: 7px;
+    -fx-cursor: hand;
+}
+
+.success-button:hover {
+    -fx-background-color: #15803d;
+}
+
+.danger-button {
+    -fx-background-color: #dc2626;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-padding: 10px 20px;
+    -fx-background-radius: 7px;
+    -fx-cursor: hand;
+}
+
+.danger-button:hover {
+    -fx-background-color: #b91c1c;
+}
+/* Customer Shopping Interface */
+
+.shop-root {
+    -fx-background-color: #f1f5f9;
+}
+
+.shop-header {
+    -fx-background-color: #172554;
+}
+
+.shop-header .label {
+    -fx-text-fill: white;
+}
+
+.shop-header .button {
+    -fx-background-color: #2563eb;
+    -fx-text-fill: white;
+    -fx-background-radius: 7px;
+    -fx-padding: 10px 18px;
+    -fx-cursor: hand;
+}
+
+.shop-logo {
+    -fx-font-size: 32px;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+}
+
+.shop-banner {
+    -fx-background-color: #dbeafe;
+    -fx-background-radius: 12px;
+}
+
+.shop-title {
+    -fx-font-size: 30px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #172554;
+}
+
+.shop-scroll {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+}
+
+.shop-scroll > .viewport {
+    -fx-background-color: #f1f5f9;
+}
+
+.product-card {
+    -fx-background-color: white;
+    -fx-background-radius: 12px;
+    -fx-border-radius: 12px;
+    -fx-border-color: #e2e8f0;
+}
+
+.product-card:hover {
+    -fx-border-color: #2563eb;
+    -fx-effect: dropshadow(
+        gaussian, rgba(0,0,0,0.12), 12, 0, 0, 4);
+}
+
+.product-image-box {
+    -fx-background-color: #f8fafc;
+    -fx-background-radius: 8px;
+}
+
+.image-placeholder {
+    -fx-text-fill: #94a3b8;
+    -fx-font-size: 13px;
+}
+
+.product-name {
+    -fx-font-size: 17px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #1e293b;
+}
+
+.product-category {
+    -fx-font-size: 12px;
+    -fx-text-fill: #64748b;
+}
+
+.product-price {
+    -fx-font-size: 23px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #172554;
+}
+
+.in-stock {
+    -fx-text-fill: #15803d;
+    -fx-font-weight: bold;
+}
+
+.low-stock {
+    -fx-text-fill: #d97706;
+    -fx-font-weight: bold;
+}
+
+.out-stock {
+    -fx-text-fill: #dc2626;
+    -fx-font-weight: bold;
+}
+
+.cart-button {
+    -fx-background-color: #2563eb;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-background-radius: 7px;
+    -fx-padding: 10px;
+    -fx-cursor: hand;
+}
+
+.cart-button:hover {
+    -fx-background-color: #1d4ed8;
+}
+
+.cart-button:disabled {
+    -fx-background-color: #cbd5e1;
+    -fx-text-fill: #475569;
+    -fx-opacity: 1;
+}
+
+.details-button {
+    -fx-background-color: #e2e8f0;
+    -fx-text-fill: #334155;
+    -fx-background-radius: 7px;
+    -fx-padding: 8px;
+    -fx-cursor: hand;
+}
+
+.details-button:hover {
+    -fx-background-color: #cbd5e1;
+}
+/* Shopping Cart */
+
+.cart-summary {
+    -fx-background-color: white;
+    -fx-background-radius: 10px;
+    -fx-border-color: #e2e8f0;
+    -fx-border-radius: 10px;
+    -fx-padding: 20px;
+}
+
+.cart-total {
+    -fx-font-size: 28px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #172554;
+}
+
+.cart-summary .cart-button {
+    -fx-font-size: 15px;
+    -fx-padding: 12px 25px;
+}
+
+.cart-summary .label {
+    -fx-font-weight: bold;
+}
+/* Checkout Page */
+
+.checkout-root {
+    -fx-background-color: #f1f5f9;
+}
+
+.checkout-heading {
+    -fx-font-size: 32px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #172554;
+}
+
+.checkout-panel {
+    -fx-background-color: white;
+    -fx-background-radius: 12px;
+    -fx-border-color: #e2e8f0;
+    -fx-border-radius: 12px;
+}
+
+.checkout-section-title {
+    -fx-font-size: 22px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #172554;
+}
+
+.checkout-panel .text-field {
+    -fx-background-radius: 7px;
+    -fx-padding: 12px;
+    -fx-border-color: #cbd5e1;
+    -fx-border-radius: 7px;
+}
+
+.checkout-panel .text-area {
+    -fx-border-color: #cbd5e1;
+    -fx-border-radius: 7px;
+}
+
+.checkout-panel .combo-box {
+    -fx-background-color: #f1f5f9;
+    -fx-background-radius: 7px;
+    -fx-padding: 8px;
+}
+
+.checkout-total {
+    -fx-font-size: 28px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #172554;
+}
+
+.checkout-panel .cart-button {
+    -fx-font-size: 16px;
+    -fx-padding: 14px;
+}
+
+.checkout-message {
+    -fx-text-fill: #dc2626;
+    -fx-font-weight: bold;
+}
+
+.checkout-success {
+    -fx-font-size: 36px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #16a34a;
+}
+/* Improved Delivery Address Form */
+
+.checkout-scroll {
+    -fx-background-color: #f1f5f9;
+    -fx-background: #f1f5f9;
+}
+
+.checkout-scroll > .viewport {
+    -fx-background-color: #f1f5f9;
+}
+
+.checkout-panel .label {
+    -fx-font-weight: bold;
+}
+
+.checkout-panel .text-field {
+    -fx-pref-height: 42px;
+    -fx-font-size: 14px;
+}
+
+.checkout-panel .text-field:focused {
+    -fx-border-color: #2563eb;
+    -fx-border-width: 1.5px;
+}
+
+.checkout-panel .combo-box {
+    -fx-pref-height: 42px;
+    -fx-font-size: 14px;
+}
+
+.checkout-message {
+    -fx-text-fill: #dc2626;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+}
+/* Order Tracking */
+
+.tracking-completed {
+    -fx-background-color: #dcfce7;
+    -fx-text-fill: #15803d;
+    -fx-font-weight: bold;
+    -fx-background-radius: 8px;
+    -fx-padding: 10px 15px;
+}
+
+.tracking-pending {
+    -fx-background-color: #e2e8f0;
+    -fx-text-fill: #64748b;
+    -fx-background-radius: 8px;
+    -fx-padding: 10px 15px;
+}
+/* Admin Order Management */
+
+.order-green-button {
+    -fx-background-color: #16a34a;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
+
+.order-green-button:hover {
+    -fx-background-color: #15803d;
+}
+
+.order-red-button {
+    -fx-background-color: #dc2626;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
+
+.order-red-button:hover {
+    -fx-background-color: #b91c1c;
+}
+
+.order-green-button:disabled,
+.order-red-button:disabled {
+    -fx-opacity: 0.5;
+}
+/* Customer Management */
+
+.customer-stat {
+    -fx-background-color: white;
+    -fx-background-radius: 12px;
+    -fx-border-color: #e2e8f0;
+    -fx-border-radius: 12px;
+    -fx-padding: 22px 30px;
+    -fx-font-size: 17px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #172554;
+    -fx-min-width: 250px;
+}
+/* Smart Product Recommendations */
+
+.recommendation-panel {
+    -fx-background-color: #eaf2ff;
+    -fx-background-radius: 15px;
+    -fx-padding: 25px;
+    -fx-spacing: 15px;
+}
+
+.recommendation-heading {
+    -fx-font-size: 25px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #172554;
+}
+
+.recommendation-subtitle {
+    -fx-font-size: 14px;
+    -fx-text-fill: #64748b;
+}
+
+.recommendation-tag {
+    -fx-background-color: #dbeafe;
+    -fx-background-radius: 6px;
+    -fx-text-fill: #2563eb;
+    -fx-font-size: 12px;
+    -fx-padding: 5px 10px;
+}
+/* Sales Analytics and Reports */
+
+.report-card {
+    -fx-background-color: white;
+    -fx-background-radius: 12px;
+    -fx-border-color: #e2e8f0;
+    -fx-border-radius: 12px;
+    -fx-padding: 22px;
+    -fx-min-width: 180px;
+}
+
+.report-card-title {
+    -fx-font-size: 15px;
+    -fx-text-fill: #64748b;
+}
+
+.report-card-value {
+    -fx-font-size: 27px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #172554;
+}
+
+.report-panel {
+    -fx-background-color: white;
+    -fx-background-radius: 12px;
+    -fx-padding: 20px;
+}
+
+.report-low-stock {
+    -fx-background-color: #fef3c7;
+    -fx-background-radius: 8px;
+    -fx-text-fill: #92400e;
+    -fx-font-weight: bold;
+    -fx-padding: 12px;
+}
+
+.report-out-stock {
+    -fx-background-color: #fee2e2;
+    -fx-background-radius: 8px;
+    -fx-text-fill: #dc2626;
+    -fx-font-weight: bold;
+    -fx-padding: 12px;
+}
+
+.report-panel .chart-title {
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #172554;
+}
+
+.report-panel .chart-plot-background {
+    -fx-background-color: #f8fafc;
+}
+
+.report-panel .default-color0.chart-bar {
+    -fx-bar-fill: #2563eb;
+}
+
+.report-panel .default-color0.chart-series-line {
+    -fx-stroke: #2563eb;
+    -fx-stroke-width: 3px;
+}
+
+.report-panel .default-color0.chart-line-symbol {
+    -fx-background-color: #2563eb, white;
+}
+/* Invoice Generation */
+
+.invoice-area {
+    -fx-font-family: "Consolas";
+    -fx-font-size: 15px;
+    -fx-text-fill: #172554;
+    -fx-background-color: white;
+    -fx-background-radius: 12px;
+    -fx-border-color: #e2e8f0;
+    -fx-border-radius: 12px;
+}
+
+.invoice-area .content {
+    -fx-background-color: white;
+    -fx-padding: 25px;
+}
+/* Final UI Improvements */
+
+.root {
+    -fx-font-family: "Segoe UI";
+}
+
+.button {
+    -fx-cursor: hand;
+}
+
+.button:disabled {
+    -fx-opacity: 0.55;
+    -fx-cursor: default;
+}
+
+.text-field:focused,
+.password-field:focused,
+.combo-box:focused {
+    -fx-border-color: #2563eb;
+    -fx-border-radius: 6px;
+}
+
+.table-view {
+    -fx-background-color: white;
+    -fx-border-color: #e2e8f0;
+    -fx-border-radius: 8px;
+}
+
+.table-view .column-header-background {
+    -fx-background-color: #172554;
+}
+
+.table-view .column-header {
+    -fx-background-color: transparent;
+    -fx-padding: 12px;
+}
+
+.table-view .column-header .label {
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
+
+.table-row-cell:odd {
+    -fx-background-color: #f8fafc;
+}
+
+.table-row-cell:even {
+    -fx-background-color: white;
+}
+
+.table-row-cell:selected {
+    -fx-background-color: #dbeafe;
+}
+
+.table-row-cell:selected .text {
+    -fx-fill: #172554;
+}
+
+.scroll-pane {
+    -fx-background-color: transparent;
+}
+
+.scroll-pane > .viewport {
+    -fx-background-color: transparent;
+}
+
+.product-card:hover {
+    -fx-effect: dropshadow(
+        gaussian,
+        rgba(37, 99, 235, 0.18),
+        18, 0.2, 0, 4
+    );
+}
